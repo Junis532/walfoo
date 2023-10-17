@@ -50,18 +50,23 @@
                     <div class="social-icons">
                         <a class="social-icon" href="#" onclick="goToInstagram()"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="#" onclick="goToGithub()"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
-
-                        <script>
-                            function goToInstagram() {
-                              window.location.href = "https://www.instagram.com/wal._.foo/";
-                            }
-
-                            function goToGithub() {
-                              window.location.href = "https://github.com/Junis532/";
-                            }
-                        </script>
+                        <a class="social-icon" href="#" onclick="showUnderConstructionMessage()"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#" onclick="showUnderConstructionMessage()"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    
+                    <script>
+                        function goToInstagram() {
+                            window.location.href = "https://www.instagram.com/wal._.foo/";
+                        }
+                    
+                        function goToGithub() {
+                            window.location.href = "https://github.com/Junis532/";
+                        }
+                    
+                        function showUnderConstructionMessage() {
+                            alert("페이지가 현재 제작 중입니다.");
+                        }
+                    </script>
                     </div>
                 </div>
             </section>
